@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  background-color: gray;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  float: left;
+  width: 200px;
+  height: 300px;
+}
+
+#navbar div {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 40px;
+  padding: 15px;
+}
+
+.main-section {
+  margin-left: 200px;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background-color: lightgreen;
+  }
+}
